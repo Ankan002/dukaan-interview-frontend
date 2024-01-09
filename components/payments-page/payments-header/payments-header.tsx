@@ -12,7 +12,7 @@ const PaymentsHeader = () => {
 
 	return (
 		<div className="w-full flex items-center lg:pl-64 fixed top-0 left-0 z-20 font-inter">
-			<nav className="w-full flex justify-between items-center py-2.5 md:px-5 px-2 border border-grey bg-white">
+			<nav className="w-full flex justify-between items-center py-2.5 md:px-5 px-2 border-b border-grey bg-white">
 				<div className="flex text-primary-dark items-center">
 					<h1 className="">Payments</h1>
 					<button
