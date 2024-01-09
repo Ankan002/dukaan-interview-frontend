@@ -19,7 +19,7 @@ const OutlineBtn = (props: Props) => {
 	return (
 		<button
 			className={twMerge(
-				"px-2.5 py-1.5 border border-secondary-grey/80 rounded-md flex items-center justify-center bg-white text-secondary-grey font-inter",
+				"px-2.5 py-1.5 border border-secondary-grey/30 rounded-md flex items-center justify-center bg-white text-secondary-grey font-inter",
 				className
 			)}
 			aria-label={title}

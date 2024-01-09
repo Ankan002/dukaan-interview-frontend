@@ -1,6 +1,6 @@
 "use client";
 
-import { PaymentsHeader } from "..";
+import { PaymentsHeader, TableSection } from "..";
 import { HeaderStrip, PaymentCard } from "../elements";
 import { usePaymentDashboard } from "./hook";
 
@@ -37,6 +37,8 @@ const PaymentsDashboard = () => {
 						title={`Transactions | ${currentDuration}`}
 						className="mt-5"
 					/>
+
+					<TableSection />
 				</div>
 			</main>
 		</>
