@@ -22,4 +22,4 @@ Final Images
 
 - Performance
 
-![Performance](/assets/screenshots/performace.png)
+![Performance](/assets/screenshots/performance.png)
