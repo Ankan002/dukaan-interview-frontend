@@ -15,7 +15,7 @@ const Sidebar = () => {
 	const { availableCredits } = storeWallet;
 
 	return (
-		<div className="lg:w-64 w-56 lg:flex lg:flex-col hidden h-screen bg-primary-blue fixed top-0 left-0 py-4">
+		<div className="lg:w-64 w-56 lg:flex lg:flex-col hidden h-screen bg-primary-blue fixed top-0 left-0 py-4 z-30">
 			<SidebarStoreButton
 				image={image}
 				storeLink={storeLink}
