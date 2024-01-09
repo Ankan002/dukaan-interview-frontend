@@ -1,6 +1,11 @@
 "use client";
 
-import { SidebarStoreButton, SidebarStoreWallet } from "@/components/elements";
+import {
+	SidebarLink,
+	SidebarStoreButton,
+	SidebarStoreWallet,
+} from "@/components/elements";
+import { sidebarLinks } from "@/constants/sidebar-links";
 import { storeDetails } from "@/constants/store-details";
 import { storeWallet } from "@/constants/store-wallet-details";
 
@@ -17,9 +22,22 @@ const Sidebar = () => {
 				storeTitle={storeTitle}
 			/>
 
-			<div className="flex-1"></div>
+			<div className="flex-1 flex flex-col px-2 overflow-y-auto">
+				{sidebarLinks.map((sidebarLink, index) => (
+					<SidebarLink
+						key={index}
+						sidebarLink={{
+							ActiveLogo: sidebarLink.ActiveLogo,
+							InactiveLogo: sidebarLink.InactiveLogo,
+							link: sidebarLink.link,
+							name: sidebarLink.name,
+						}}
+						isActive={sidebarLink.isActive}
+					/>
+				))}
+			</div>
 
-			<div className="pt-3 px-2">
+			<div className="pt-5 px-3">
 				<SidebarStoreWallet creditAmount={availableCredits} />
 			</div>
 		</div>

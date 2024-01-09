@@ -11,7 +11,7 @@ const SidebarStoreButton = (props: Props) => {
 	const { image, storeTitle, storeLink } = props;
 
 	return (
-		<div className="w-full flex px-2 font-inter items-center pb-3">
+		<div className="w-full flex px-3 font-inter items-center pb-5">
 			<Image
 				src={image}
 				alt={storeTitle}
