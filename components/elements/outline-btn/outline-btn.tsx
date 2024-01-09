@@ -1,6 +1,4 @@
 "use client";
-
-import { Button } from "@/components/ui/button";
 import { LucideIcon } from "lucide-react";
 import { IconType } from "react-icons";
 import { twMerge } from "tailwind-merge";

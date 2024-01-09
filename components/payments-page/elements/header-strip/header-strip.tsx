@@ -1,11 +1,4 @@
 import { OutlineBtn } from "@/components/elements";
-import {
-	DropdownMenu,
-	DropdownMenuItem,
-	DropdownMenuTrigger,
-	DropdownMenuContent,
-	DropdownMenuLabel,
-} from "@/components/ui/dropdown-menu";
 import { LuChevronDown } from "react-icons/lu";
 import { twMerge } from "tailwind-merge";
 
