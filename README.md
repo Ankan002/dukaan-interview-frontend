@@ -18,8 +18,8 @@ Final Images
 
 - Dashboard
 
-![Final Website](/blob/main/assets/screenshots/final-website.png)
+![Final Website](/assets/screenshots/final-website.png)
 
 - Performance
 
-![Performance](/blob/main/assets/screenshots/performace.png)
+![Performance](/assets/screenshots/performace.png)
