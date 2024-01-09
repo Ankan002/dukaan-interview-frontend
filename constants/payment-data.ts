@@ -1,0 +1,130 @@
+import { PaymentData } from "@/types/general";
+
+export const paymentData: PaymentData[] = [
+	{
+		id: "#281209",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281210",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281211",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281212",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281213",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281214",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281215",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281216",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281217",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281218",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281219",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281220",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281221",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281222",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281223",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281224",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281225",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281226",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281227",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281228",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+	{
+		id: "#281229",
+		orderDate: "7 July, 2023",
+		orderAmount: "₹1,278.23",
+		transactionFees: "₹22",
+	},
+];
