@@ -13,7 +13,12 @@ const PaymentsDashboard = () => {
 
 			<main className="bg-primary-light w-full min-h-screen pt-20 lg:pl-64">
 				<div className="lg:px-5 px-3 flex flex-col">
-					<HeaderStrip title="Overview" className="md:mt-1" />
+					<HeaderStrip
+						title="Overview"
+						className="md:mt-1"
+						dropdown
+						currentDuration={currentDuration}
+					/>
 
 					<div className="w-full flex sm:flex-row flex-col mt-3">
 						<PaymentCard
