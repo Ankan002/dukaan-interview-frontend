@@ -4,6 +4,7 @@ import { OutlineBtn, SearchBar } from "@/components/elements";
 import { useTableSection } from "./hook";
 import { ArrowUpDown, Download } from "lucide-react";
 import { IoSearch } from "react-icons/io5";
+import { PaymentsTable } from "../payments-table";
 
 const TableSection = () => {
 	const { searchTerm, onSearchTermChange } = useTableSection();
@@ -43,6 +44,8 @@ const TableSection = () => {
 					/>
 				</div>
 			</div>
+
+			<PaymentsTable />
 		</div>
 	);
 };
