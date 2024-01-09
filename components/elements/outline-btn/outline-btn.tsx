@@ -7,14 +7,24 @@ interface Props {
 	title?: string;
 	onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 	RightIcon?: IconType | LucideIcon;
+	LeftIcon?: IconType | LucideIcon;
 	className?: string;
 	iconSize?: number;
+	leftIconSize?: number;
 	textClassName?: string;
 }
 
 const OutlineBtn = (props: Props) => {
-	const { title, onClick, RightIcon, className, iconSize, textClassName } =
-		props;
+	const {
+		title,
+		onClick,
+		RightIcon,
+		className,
+		iconSize,
+		textClassName,
+		LeftIcon,
+		leftIconSize,
+	} = props;
 
 	return (
 		<button
@@ -25,6 +35,8 @@ const OutlineBtn = (props: Props) => {
 			aria-label={title}
 			onClick={onClick}
 		>
+			{LeftIcon && <LeftIcon size={leftIconSize ?? 22} />}
+
 			{title && (
 				<p className={twMerge("text-base font-light", textClassName)}>
 					{title}

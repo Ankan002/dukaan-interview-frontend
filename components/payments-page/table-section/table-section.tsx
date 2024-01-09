@@ -2,9 +2,15 @@
 
 import { OutlineBtn, SearchBar } from "@/components/elements";
 import { useTableSection } from "./hook";
-import { ArrowUpDown, Download } from "lucide-react";
+import { ArrowUpDown, ChevronLeft, ChevronRight, Download } from "lucide-react";
 import { IoSearch } from "react-icons/io5";
 import { PaymentsTable } from "../payments-table";
+import {
+	Pagination,
+	PaginationContent,
+	PaginationItem,
+	PaginationPrevious,
+} from "@/components/ui/pagination";
 
 const TableSection = () => {
 	const { searchTerm, onSearchTermChange } = useTableSection();
@@ -46,6 +52,50 @@ const TableSection = () => {
 			</div>
 
 			<PaymentsTable />
+
+			<div className="w-full flex items-center justify-center mt-5">
+				<Pagination>
+					<PaginationContent>
+						<PaginationItem>
+							<OutlineBtn
+								LeftIcon={ChevronLeft}
+								leftIconSize={20}
+								title="Previous"
+								textClassName="ml-2 "
+								className="px-1.5 py-1"
+							/>
+						</PaginationItem>
+
+						<PaginationItem>
+							<div className="px-1 py-1 mx-1">1</div>
+						</PaginationItem>
+
+						<PaginationItem>
+							<div className="px-1 py-1 mx-1">...</div>
+						</PaginationItem>
+
+						<PaginationItem>
+							<div className="px-2 py-1 mx-1 bg-tertiary-blue rounded-md text-white border border-primary-dark">
+								10
+							</div>
+						</PaginationItem>
+
+						<PaginationItem>
+							<div className="px-1 py-1 mx-1">11</div>
+						</PaginationItem>
+
+						<PaginationItem>
+							<OutlineBtn
+								RightIcon={ChevronRight}
+								iconSize={20}
+								title="Next"
+								textClassName="mr-1"
+								className="px-1.5 py-1"
+							/>
+						</PaginationItem>
+					</PaginationContent>
+				</Pagination>
+			</div>
 		</div>
 	);
 };
